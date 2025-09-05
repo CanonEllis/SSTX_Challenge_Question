@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Challenge</title>
+  <link rel="stylesheet" href="assets/style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-flex">
+      <div class="brand">
+        <img src="assets/logo.png" alt="Logo" class="logo" />
+        <h1 class="site-title">Challenge</h1>
+      </div>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="past.html">Past Challenges</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section id="challenge-header" class="card highlight">
+      <div class="challenge-title-row">
+        <h2 id="challenge-title">Loading...</h2>
+        <div class="badge" id="challenge-status"></div>
+      </div>
+      <p id="challenge-blurb" class="lead"></p>
+      <div class="timer-row">
+        <div class="timer-label">Time Remaining:</div>
+        <div id="countdown" class="countdown">—</div>
+      </div>
+      <div class="file-links" id="pdf-links"></div>
+      <div class="muted small" id="window-dates"></div>
+    </section>
+
+    <section class="card">
+      <h3>Leaderboard</h3>
+      <div id="leaderboard"></div>
+    </section>
+
+    <section class="card">
+      <h3>How to Participate</h3>
+      <ol>
+        <li>Download/read the PDF(s) above.</li>
+        <li>Complete the challenge and prepare your solution.</li>
+        <li>Submit to your teacher or via your designated form.</li>
+      </ol>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>&copy; <span id="year"></span> SSTX CS Department. Hosted on GitHub Pages.</p>
+    </div>
+  </footer>
+
+  <script src="scripts/app.js"></script>
+  <script>App.initChallenge();</script>
+</body>
+</html>

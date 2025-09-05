@@ -1,0 +1,20 @@
+[
+  {
+    "challengeId": "2025-09",
+    "name": "Alex S.",
+    "score": 10,
+    "submittedAt": "2025-09-05T10:32:00-05:00"
+  },
+  {
+    "challengeId": "2025-09",
+    "name": "Brianna K.",
+    "score": 9,
+    "submittedAt": "2025-09-06T08:00:00-05:00"
+  },
+  {
+    "challengeId": "2025-09",
+    "name": "Casey J.",
+    "score": 8,
+    "submittedAt": "2025-09-06T14:41:00-05:00"
+  }
+]

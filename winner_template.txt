@@ -1,0 +1,19 @@
+[
+  {
+    "challengeId": "2025-08",
+    "winners": [
+      {
+        "name": "R. Lee",
+        "place": 1
+      },
+      {
+        "name": "N. Patel",
+        "place": 2
+      },
+      {
+        "name": "J. Nguyen",
+        "place": 3
+      }
+    ]
+  }
+]

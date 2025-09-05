@@ -1,0 +1,23 @@
+{
+  "current": "2025-09",
+  "items": [
+    {
+      "id": "2025-09",
+      "title": "The Curious Sequence",
+      "pdf": "pdfs/2025-09-curious-sequence.pdf",
+      "start": "2025-09-01T08:00:00-05:00",
+      "end": "2025-09-15T23:59:59-05:00",
+      "blurb": "A recurrence with a twist. Compute, visualize, and explain your observations without being told the growth model.",
+      "status": "open"
+    },
+    {
+      "id": "2025-11",
+      "title": "The Mysterious Collatz Path",
+      "pdf": "pdfs/2025-11-collatz-path.pdf",
+      "start": "2025-11-01T08:00:00-06:00",
+      "end": "2025-11-15T23:59:59-06:00",
+      "blurb": "Steps-to-one exploration and patterns. Implement, plot, and describe your findings.",
+      "status": "upcoming"
+    }
+  ]
+}
